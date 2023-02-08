@@ -1,0 +1,36 @@
+{
+  "name": "chatapp_server",
+  "version": "1.0.0",
+  "description": "Mern Stack with Socket.io",
+
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.mjs",
+    "dev": "nodemon server.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/26haroon26/chatapp_server.git"
+  },
+  "author": "Muhammad Haroon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/26haroon26/chatapp_server/issues"
+  },
+  "homepage": "https://github.com/26haroon26/chatapp_server#readme",
+  "dependencies": {
+    "bcrypt-inzi": "^1.0.7",
+    "cookie": "^0.5.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.5.0",
+    "jsonwebtoken": "^9.0.0",
+    "moment": "^2.29.4",
+    "mongoose": "^6.9.1",
+    "multer": "^1.4.5-lts.1",
+    "nanoid": "^4.0.1",
+    "nodemailer": "^6.9.1",
+    "socket.io": "^4.6.0"
+  }
+}
